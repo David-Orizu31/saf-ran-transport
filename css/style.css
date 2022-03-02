@@ -499,8 +499,8 @@ virginia.ns.cloudflare.com */
 
 .chilogo {
  width: 8em;
- height:120px;
- margin-top: -55px;
+ height:auto;
+ margin-top: -35px;
 }
 
 
@@ -4338,6 +4338,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
+}
+
+@media (max-width:800px) {
+   .hidden-sm {
+     display: none;
+   }  
+}
+
+.form-select {
+  width: 100% !important;
+  border-radius: 0px !important;
+}
+
+.form-select .list {
+  width: 100% !important;
 }
 
 /* End Contact Success and error Area css
