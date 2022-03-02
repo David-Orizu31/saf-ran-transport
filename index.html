@@ -29,6 +29,10 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+		<!-- aos css -->
+		<link rel="stylesheet" href="aos/aos.css">
+		    <!-- Fancy Box CSS -->
+			<link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
     </head>
     <body>
 
@@ -246,8 +250,10 @@
         				</div>
         			</div>
         			<div class="col-lg-6">
-        				<div class="animation-element slide-right about">
+        				<div class="animation-element slide-right about" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500">
+							<a href="images/sienna-1.jpg" data-fancybox="gallery" data-caption="Welcome to Saf ran Transport Services">
 									<img class="img-fluid " src="images/sienna-1.jpg" alt="chiboy-about">
+									</a>
         				</div>
         			</div>
         		</div>
@@ -295,30 +301,30 @@
 							<p>They include the following :</p>
         		</div>
 
-							<div class="row feature_inner">
+							<div class="row feature_inner justify-content-center">
 								<div class="col-lg-4">
-									<div class="feature_item">
+									<div class="feature_item" data-aos="fade-up-right" data-aos-duration="1600">
 										<i class="lnr lnr-users"></i>
 										<h4>Drivers</h4>
 										<p>Our drivers are trained by the Federal Road Safety Commission of Nigeria (FRSC) which makes them highly equipped and qualified.</p>
 									</div>
 								</div>
 								<div class="col-lg-4">
-									<div class="feature_item">
+									<div class="feature_item" data-aos="flip-up" data-aos-duration="1700">
 										<i class="lnr lnr-bus"></i>
 										<h4>Buses</h4>
 										<p>Buses are well equipped with Air Conditioners (A.C) ,comfortable seats ,Fire extinguisers (incases of fire out breaks), Speed limit installations, and other amenities for security and safety of passengers.</p>
 									</div>
 								</div>
 								<div class="col-lg-4">
-									<div class="feature_item">
+									<div class="feature_item" data-aos="fade-up-left" data-aos-duration="1800">
 										<i class="lnr lnr-diamond"></i>
 										<h4>Awards</h4>
 										<p>We are one of the best transportation firms approved by the Federal Ministry of transportation which has been winning awards of excellence consistently for the past 7years.</p>
 									</div>
 								</div>
 								<div class="col-lg-4">
-									<div class="feature_item">
+									<div class="feature_item" style="margin-top: 10px;" data-aos="zoom-in" data-aos-duration="2000">
 										<i class="lnr lnr-clock"></i>
 										<h4>Punctual</h4>
 										<p>Extremely punctual on our departure time which are normally scheduled by 5:45am, 6:00pm and others departing before 7:00pm.</p>
@@ -336,19 +342,27 @@
 										<p>Here are some images of the outlook of Saf ran transport services bussiness environment.</p>
 										<br><br>
 										<div class="row " style="padding: 20px;">
-											<div class="col-md-6 animation-element slide-left about">
+											<div class="col-md-6 animation-element slide-left about" data-aos="flip-left" data-aos-duration="1600">
+												<a href="images/inside-sienna.jpg" data-fancybox="gallery" data-caption="Saf ran Transport Services Environment">
 									<img src="images/inside-sienna.jpg" class="img img-responsive" alt="chiboy-gallery" style="max-width: 100%; height: auto; margin-top: 20px;">
+								</a>
 									</div>
-									<div class="col-md-6 animation-element slide-left about">
+									<div class="col-md-6 animation-element slide-left about" data-aos="fade-down-right" data-aos-duration="1700">
+										<a href="images/sienna-3.jpg" data-fancybox="gallery" data-caption="Saf ran Transport Services Environment">
 										<img src="images/sienna-3.jpg" class="img img-responsive" alt="chiboy-gallery" style="max-width: 100%; height: auto; margin-top: 20px;">
+									</a>
 										</div>
 									</div>
 									<div class="row" style="padding: 20px;">
-										<div class="col-md-6 animation-element slide-left about">
+										<div class="col-md-6 animation-element slide-left about" data-aos="flip-up" data-aos-duration="1800">
+											<a href="images/sienna-2.jpg" data-fancybox="gallery" data-caption="Saf ran Transport Services Environment">
 											<img src="images/sienna-2.jpg" class="img img-responsive" alt="chiboy-gallery" style="max-width: 100%; height: auto; margin-top: 20px;">
+										</a>
 											</div>
-											<div class="col-md-6 animation-element slide-left about">
+											<div class="col-md-6 animation-element slide-left about" data-aos="flip-right" data-aos-duration="1900">
+												<a href="images/sienna-4.jpg" data-fancybox="gallery" data-caption="Saf ran Transport Services Environment">
 												<img src="images/sienna-4.jpg" class="img img-responsive" alt="chiboy-gallery" style="max-width: 100%; height: auto; margin-top: 20px;">
+											</a>
 												</div>
 									</div>
 									</div>
@@ -541,6 +555,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/mail-script.js"></script>
-				<script src="js/theme.js"></script>
+	    <script src="js/theme.js"></script>
+		    <!-- Fancy Box JS -->
+			<script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+		<script src="aos/aos.js"></script>
+		<script>
+			AOS.init();
+		  </script>
     </body>
 </html>
