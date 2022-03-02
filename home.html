@@ -125,8 +125,7 @@
                     <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <div class="container">
-                                <br>
+                            <div class="container pt-lg-3">
                            <h2 class="form-header">BOOK YOUR TRIP NOW</h2>
                            <p class="form-text">Shuttle Bus Service</p>
                             <br>
@@ -200,12 +199,13 @@
 
                 </section>
 
+                <br> <br><br>
 
         <section>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <div class="container pt-5">
+                            <div class="container pt-lg-5">
                                 <h2 class="form-header">VERIFY YOUR BOOKING</h2>
                                 <p class="form-text">Shuttle Bus Service</p>
                                 <br>
@@ -230,6 +230,48 @@
                     </div>
                 </div>
         </section>
+
+        <br><br><br>
+        <section>
+            <div class="container">
+                <h2 class="form-header text-center">WHAT CLIENTS ARE SAYING...</h2>
+                <br><br>
+                <div class="owl-carousel loop">
+                    <div align="center">
+                        <div class="p-3">
+                       <img src="images/green-avatar.png" alt="female-beads" class="img img-fluid" style="width: 100px;">
+                       <br>
+                      <div class="product-price">
+                        <p>I've never seen any transportation company that's as fast as Saf rafan Transport Services. I can't believe I arrived at Abuja from Jos within 3 hours.</p>
+                        <h5>Mercy Pam</h5>
+                      </div>
+                    </div>
+                    </div>
+                    <div align="center">
+                        <div class="p-3">
+                         <img src="images/green-avatar.png" alt="female-beads" class="img img-fluid" style="width: 100px;">
+                         <br>
+                        <div class="product-price">
+                          <p>Kudos! Saf rafan Transport Services, you guys are the best! I really enjoyed your bus ride it was very confortable wasn't stuffy all. Thanks you!</p>
+                          <h5>Emmanuel Chidozie</h5>
+                        </div>
+                    </div>
+                      </div>
+                      <div align="center">
+                        <div class="p-3">
+                         <img src="images/green-avatar.png" alt="female-beads" class="img img-fluid" style="width: 100px;">
+                         <br>
+                        <div class="product-price">
+                          <p>Saf rafan Transport Company to me is one of the best Transportation Companies you can find in Northern Nigeria. Their services are fast, efficient and condusive.</p>
+                          <h5>Bright Adekunle</h5>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+        </section>
+
+        <br><br>
 
 
         <!--================ start footer Area  =================-->
@@ -369,6 +411,26 @@ window.onload = function(){
       });
     });
         </script>
+
+<script>
+    $(document).ready(function(){
+      $('.loop').owlCarousel({
+  center: true,
+  items:2,
+  loop:true,
+  margin:15,
+  autoplay:true,
+  autoplayTimeout:3000,
+  nav:true,
+  navText : ["<i class='fas fa-chevron-left fa-2x'></i>","<i class='fas fa-chevron-right fa-2x'></i>"],
+  responsive:{
+      600:{
+          items:3
+      }
+  }
+});
+    });
+  </script>
 		    <!-- Fancy Box JS -->
 			<script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
 		<script src="aos/aos.js"></script>
