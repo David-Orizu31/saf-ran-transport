@@ -415,8 +415,7 @@ window.onload = function(){
 <script>
     $(document).ready(function(){
       $('.loop').owlCarousel({
-  center: true,
-  items:2,
+  items:1,
   loop:true,
   margin:15,
   autoplay:true,
@@ -424,8 +423,11 @@ window.onload = function(){
   nav:true,
   navText : ["<i class='fas fa-chevron-left fa-2x'></i>","<i class='fas fa-chevron-right fa-2x'></i>"],
   responsive:{
-      600:{
+    1024:{
           items:3
+      },
+      600:{
+          items:2
       }
   }
 });
