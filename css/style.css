@@ -4348,11 +4348,73 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-select {
   width: 100% !important;
+  height: 50px;
   border-radius: 0px !important;
+}
+
+.form-select .current {
+  margin-top: -3px !important;
+  position: absolute;
 }
 
 .form-select .list {
   width: 100% !important;
+}
+
+.form-label {
+  font-weight: 350;
+  margin-bottom: 0px;
+}
+
+.fa-chevron-left , .fa-chevron-right {
+  color: white;
+}
+
+.fa-chevron-left:hover , .fa-chevron-right:hover {
+  color: #8199A3;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF !important;
+}
+
+.owl-carousel:hover .owl-prev {
+  display: block;
+}
+
+.owl-carousel:hover .owl-next {
+  display: block;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3 !important;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+  display: none;
+}
+
+.owl-prev {
+	left: 20px;
+}
+
+.owl-next {
+	right: 10px;
+}
+
+.form-header {
+  color: #F2BB32;
+}
+
+.form-text {
+  color: #2b9328;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 /* End Contact Success and error Area css
