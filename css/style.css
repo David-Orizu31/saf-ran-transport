@@ -508,7 +508,7 @@ virginia.ns.cloudflare.com */
 .booking-cta {
     margin-top: 45px;
  padding: 20px;
-background: rgba(0, 0, 0, 0.8) !important;
+background: rgba(0, 0, 0, 0.9) !important;
 
 
 }
@@ -518,14 +518,12 @@ background: rgba(0, 0, 0, 0.8) !important;
 	text-transform: uppercase;
 	color: white;
     font-weight: 900;
-    background: rgba(0, 0, 0, 0.8) !important;
 
 }
 
 .booking-cta p {
     font-size: 20px;
     color: white;
-    background: rgba(0, 0, 0, 0.8) !important;
     padding-bottom: 15px;
 }
 
