@@ -410,6 +410,10 @@
 	.top_menu .float-right {
 		display: none;
 	}
+
+	.body-area {
+		padding-top: 50px;
+	}
 }
 
 
