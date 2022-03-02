@@ -79,7 +79,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #F2BB32;
+		background: #FFC527;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -248,9 +248,6 @@
 	============================================================================================ */
 }
 @media (max-width:575px){
-	.top_menu {
-		display: none;
-	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
@@ -407,6 +404,12 @@
     margin-bottom: 5px;
   }
 
+}
+
+@media (max-width:480px) {
+	.top_menu .float-right {
+		display: none;
+	}
 }
 
 
