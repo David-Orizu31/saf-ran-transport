@@ -2514,18 +2514,19 @@ height: 100%;
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #04091e;
+  background: #2b9328;
   padding: 145px 0px;
 }
 
 .single-footer-widget p {
   margin-bottom: 0px;
+  color: white;
 }
 
 .single-footer-widget ul li a {
   line-height: 25px;
   display: inline-block;
-  color: #777;
+  color: white;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -2610,12 +2611,13 @@ height: 100%;
 .border_line {
   width: 100%;
   height: 1px;
-  background: #333333;
+  background: white;
   margin-top: 30px;
 }
 
 .footer-bottom {
   padding-top: 46px;
+  color: white;
 }
 
 .footer-bottom .footer-text a {
@@ -2629,7 +2631,7 @@ height: 100%;
 .footer-bottom .footer-social a {
   font-size: 18px;
   line-height: 30px;
-  color: #82848f;
+  color: white;
   margin-left: 25px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
